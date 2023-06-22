@@ -1,11 +1,11 @@
 <template>
-<h3>{{ gruss }}</h3>
+  <h3>{{title}}</h3>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
-  props: ['gruss']
+  name: 'DynamicForm',
+  props: ['title']
 }
 </script>
 
