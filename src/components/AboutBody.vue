@@ -1,12 +1,12 @@
 <template>
   <div class="body-container">
     <div class="section">
-      <h1 class="datenschutz-title">Datenschutzerklärung</h1>
-      <div class="datenschutz-content">
+      <h1 class="agb-title">Das sind Wir!</h1>
+      <div class="agb-content">
         <p>
           Hier könnte der Inhalt der Datenschutzerklärung stehen. Bitte ersetzen Sie diesen Platzhaltertext durch eine ausführliche Datenschutzerklärung, die Ihren Anforderungen entspricht.
         </p>
-        <p class="datenschutz-info">
+        <p class="agb-info">
           Beispieltext: Dies ist eine Beispiel-Datenschutzerklärung. Bitte stellen Sie sicher, dass Sie die Informationen an Ihre eigenen Datenschutzrichtlinien anpassen.
         </p>
       </div>
@@ -36,14 +36,14 @@ export default {
   margin-bottom: 40px;
 }
 
-.datenschutz-title {
+.agb-title {
   position: absolute;
   top: 100px;
   left: 50%;
   transform: translateX(-50%);
 }
 
-.datenschutz-content {
+.agb-content {
   position: absolute;
   top: 300px;
   left: 80px;
@@ -51,7 +51,7 @@ export default {
   font-size: 16px;
 }
 
-.datenschutz-info {
+.agb-info {
   margin-top: 10px;
 }
 

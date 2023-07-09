@@ -1,22 +1,27 @@
 <template>
-<div id="nav">
-  <router-link to = "/" >Home</router-link> |
-  <router-link to = "/about" >About</router-link> |
-  <router-link to = "/kontaktformular" >Kontaktformular</router-link>
-</div>
+  <div>
+    <NavbarMenue />
+  </div>
   <router-view/>
-</template>
+  <div>
+    <FooterSection />
+  </div>
+  </template>
 
 <script>
+import NavbarMenue from './components/NavbarMenue.vue'
+import FooterSection from './components/FooterSection.vue'
 import FormularData from './components/FormularData.vue'
-import DynamicForm from '@/components/DynamicForm.vue'
-import HelloWorld from '@/components/HelloWorld.vue'
+import DynamicForm from '@/components/DatenschutzBody.vue'
+import ImpressumBody from '@/components/ImpressumBody.vue'
+import AgbBody from '@/components/AgbBody.vue'
+import AboutBody from '@/components/AboutBody.vue'
 
 export default {
   name: 'App',
   components: {
     // eslint-disable-next-line vue/no-unused-components
-    FormularData, DynamicForm, HelloWorld
+    FormularData, DynamicForm, ImpressumBody, NavbarMenue, FooterSection, AgbBody, AboutBody
   }
 }
 </script>

@@ -1,19 +1,22 @@
 <template>
-  <div class="about">
-    <AboutBody/>
+  <div class="home">
+    <DatenschutzBody/>
   </div>
 </template>
 
 <script>
-
-import AboutBody from '@/components/AboutBody.vue'
+import DatenschutzBody from '@/components/DatenschutzBody.vue'
 
 export default {
   // eslint-disable-next-line vue/multi-word-component-names
-  name: 'About',
+  name: 'Datenschutz',
   components: {
     // eslint-disable-next-line vue/no-unused-components
-    AboutBody
+    DatenschutzBody
   }
 }
 </script>
+
+<style scoped>
+
+</style>

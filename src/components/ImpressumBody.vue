@@ -3,23 +3,22 @@
     <h1 class="impressum-title">Impressum</h1>
     <div class="impressum-content">
       <p>
-        Hier könnte das Impressum stehen. Bitte ersetzen Sie "XXXXXXXXX" durch die entsprechenden Daten.
-      </p>
-      <p>
-        Verantwortlich für den Inhalt:<br>
-        XXXXXXXXX<br>
-        XXXXXXXXX<br>
-        XXXXXXXXX<br>
-        XXXXXXXXX<br>
-        XXXXXXXXX
+        Verantwortlich für diese Seite ist der Einzelunternehmer Elsar Chabaev.<br><br>
+        Elsar Chabaev<br>
+        Einzelunternehmnung<br>
+        Kantstraße 86, 10627 Berlin<br>
+        Finanzamt Charlottenburg-Wilmersdorf<br>
+        856-9734-123-0876 (Steuernummer)
       </p>
     </div>
     <h2 class="kontakt-title">Kontakt</h2>
     <div class="kontakt-details">
       <p>
-        Telefon: XXXXXXXXX<br>
-        E-Mail: XXXXXXXXX<br>
-        Adresse: XXXXXXXXX
+        Telefon:<br>(+49)-172-924-7005<br>
+        E-Mail :<br> kontakt@icomify.com<br>
+        Adresse:<br>
+        Kantstraße 86<br>
+        10627 Berlin<br>
       </p>
     </div>
     <p class="streitbeilegung-hinweis">
@@ -39,7 +38,7 @@ export default {
 .body-container {
   background-color: black;
   color: white;
-  min-height: 93vh;
+  height: 100vh;
 }
 
 .impressum-title {
@@ -54,18 +53,19 @@ export default {
   top: 180px;
   left: 50%;
   transform: translateX(-50%);
+  font-weight: bold;
 }
 
 .kontakt-title {
   position: absolute;
-  top: 430px;
+  top: 380px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .kontakt-details {
   position: absolute;
-  top: 510px;
+  top: 450px;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;

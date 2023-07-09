@@ -10,7 +10,22 @@ const routes = [
   {
     path: '/kontaktformular',
     name: 'Kontaktformular',
-    component: () => import(/* webpackChunkName: "Home" */ '../views/KontaktFormular.vue')
+    component: () => import(/* webpackChunkName: "Kontaktformular" */ '../views/KontaktFormular.vue')
+  },
+  {
+    path: '/impressum',
+    name: 'Impressum',
+    component: () => import(/* webpackChunkName: "Impressum" */ '../views/Impressum.vue')
+  },
+  {
+    path: '/datenschutz',
+    name: 'Datenschutz',
+    component: () => import(/* webpackChunkName: "Datenschutz" */ '../views/Datenschutz.vue')
+  },
+  {
+    path: '/allgemeineGeschaeftsbedingungen',
+    name: 'Agbs',
+    component: () => import(/* webpackChunkName: "Agbs" */ '../views/Agbs.vue')
   },
   {
 
