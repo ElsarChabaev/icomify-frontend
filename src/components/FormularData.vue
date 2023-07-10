@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="contact-form" v-if="showForm">
-      <h2 class="form-title">Kontaktformular fürs <span class="highlighted-text">kostenloses Erstgespräch</span></h2>
+      <h2 class="form-title">Kontaktformular fürs <span class="highlighted-text">kostenlose Erstgespräch</span></h2>
       <h3 class="form-subtitle"><span class="highlighted-text">Eine Stunde</span> kostenlose Erstberatung, jetzt Anfragen!</h3>
       <div class="form-field">
         <input v-model="nameField" placeholder="Name***" class="input-field">
@@ -19,7 +19,7 @@
         <input v-model="stadtField" placeholder="Stadt" class="input-field">
       </div>
       <div class="form-field">
-        <input v-model="woTagField" placeholder="Wochentag***" class="input-field">
+        <input v-model="woTagField" placeholder="Wunschtage***" class="input-field">
       </div>
       <div class="form-field">
         <textarea v-model="kommentarField" placeholder="Kommentar" class="input-field"></textarea>
@@ -136,7 +136,7 @@ export default {
 .form-title {
   color: white;
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-weight: bold;
 }
 
@@ -164,8 +164,10 @@ export default {
 }
 
 textarea.input-field {
-  height: 100px;
+  height: 50px;
   border-radius: 4px;
+  max-height: 100px;
+  min-height: 40px;
 }
 
 .submit-button {

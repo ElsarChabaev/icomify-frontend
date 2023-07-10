@@ -14,16 +14,16 @@
     <h2 class="kontakt-title">Kontakt</h2>
     <div class="kontakt-details">
       <p>
-        Telefon:<br>(+49)-172-924-7005<br>
-        E-Mail :<br> kontakt@icomify.com<br>
+        Telefon: (+49)-172-924-7005<br><br>
+        E-Mail : kontakt@icomify.com<br><br>
         Adresse:<br>
         Kantstraße 86<br>
-        10627 Berlin<br>
+        10627, Berlin<br>
       </p>
     </div>
     <p class="streitbeilegung-hinweis">
       Hinweis: Gemäß der Verordnung über Online-Streitbeilegung in Verbraucherangelegenheiten steht Ihnen eine Online-Streitbeilegungsplattform der EU zur Verfügung. Sie finden diese unter folgendem Link:
-      <a href="https://ec.europa.eu/consumers/odr/" target="_blank">https://ec.europa.eu/consumers/odr/</a>
+      <a href="https://ec.europa.eu/consumers/odr/" target="_blank" style="color: #a2e831;">https://ec.europa.eu/consumers/odr/</a>
     </p>
   </div>
 </template>
@@ -38,7 +38,7 @@ export default {
 .body-container {
   background-color: black;
   color: white;
-  height: 100vh;
+  height: 92vh;
 }
 
 .impressum-title {
@@ -50,7 +50,7 @@ export default {
 
 .impressum-content {
   position: absolute;
-  top: 180px;
+  top: 160px;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;
@@ -58,14 +58,14 @@ export default {
 
 .kontakt-title {
   position: absolute;
-  top: 380px;
+  top: 375px;
   left: 50%;
   transform: translateX(-50%);
 }
 
 .kontakt-details {
   position: absolute;
-  top: 450px;
+  top: 430px;
   left: 50%;
   transform: translateX(-50%);
   font-weight: bold;
@@ -77,6 +77,7 @@ export default {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  font-size: 13px;
 }
 
 a {
