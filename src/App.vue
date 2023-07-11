@@ -6,7 +6,7 @@
   <div>
     <FooterSection />
   </div>
-  </template>
+</template>
 
 <script>
 import NavbarMenue from './components/NavbarMenue.vue'

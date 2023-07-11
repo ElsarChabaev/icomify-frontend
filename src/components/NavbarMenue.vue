@@ -12,13 +12,13 @@
       <div class="collapse navbar-collapse justify-content-end" :class="{ show: isMenuOpen }">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <router-link to="/" class="nav-link" :class="{ 'active-link': $route.path === '/' }">Home</router-link>
+            <router-link to="/" class="nav-link" :class="{ 'active-link': $route.path === '/' }" @click="closeMenu">Home</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/about" class="nav-link" :class="{ 'active-link': $route.path === '/about' }">About</router-link>
+            <router-link to="/about" class="nav-link" :class="{ 'active-link': $route.path === '/about' }" @click="closeMenu">About</router-link>
           </li>
           <li class="nav-item">
-            <router-link to="/kontaktformular" class="nav-link" :class="{ 'active-link': $route.path === '/kontaktformular' }">Kontaktformular</router-link>
+            <router-link to="/kontaktformular" class="nav-link" :class="{ 'active-link': $route.path === '/kontaktformular' }" @click="closeMenu">Kontaktformular</router-link>
           </li>
         </ul>
       </div>
@@ -68,6 +68,9 @@ export default {
           navbar.classList.remove('fixed-navbar')
         }
       }
+    },
+    closeMenu () {
+      this.isMenuOpen = false
     }
   }
 }

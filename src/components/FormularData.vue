@@ -29,8 +29,8 @@
       </div>
     </div>
     <div v-else class="thank-you">
-      <h2>Vielen Dank für Ihre Anfrage!</h2>
-      <p>Wir werden uns bald bei Ihnen melden.</p>
+      <h2>Vielen Dank für Deine Anfrage!</h2>
+      <p>Wir werden uns bald bei Dir melden.</p>
       <div class="button-container" :style="getButtonStyles">
         <router-link to="/" class="button-link">
           <button class="button">ZÜRÜCK ZUR STARTSEITE</button>
